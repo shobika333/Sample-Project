@@ -64,7 +64,7 @@ static ProductDAO productDAO;
 	@Test
 	public void updateProductTest() {
 		Product product = productDAO.viewProduct(6);
-		//product.setProductName("Designer Kurthi");
+		//product.setProductName("Rock Insruments");
 		product.setProdDesc("Green and peach colour");
 		assertTrue("Problem in Product updation",productDAO.updateProduct(product));		
 	}
